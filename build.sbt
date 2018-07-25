@@ -10,9 +10,19 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava, DockerPlugin)
 
 scalaVersion := "2.12.2"
 
+val playLibraries = Seq(
+  "org.pac4j"          %% "play-pac4j"       % "6.0.0",
+  "org.pac4j"          % "pac4j-http"       % "3.0.0",
+  "org.pac4j"          % "pac4j-jwt"        % "3.0.0" exclude("commons-io", "commons-io"),
+  "org.pac4j"          % "pac4j-ldap"       % "3.0.0"
+)
+
 libraryDependencies += "org.webjars" % "swagger-ui" % "3.1.5"
 libraryDependencies += "javax.validation" % "validation-api" % "1.1.0.Final"
 libraryDependencies += guice
+
+libraryDependencies ++= playLibraries
+
 
 val sopts = Seq(
   "-deprecation",

@@ -27,3 +27,6 @@ README.md
 LICENSE
 AUTHORS
 README
+build.sbt
+pom.xml
+project/plugins.sbt

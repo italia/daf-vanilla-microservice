@@ -20,7 +20,7 @@ import play.Configuration;
 
 import swagger.SwaggerUtils.ApiAction;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaPlayFrameworkCodegen", date = "2018-07-19T15:03:54.087+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaPlayFrameworkCodegen", date = "2018-07-25T16:23:23.837+02:00")
 
 public class VocabularyApiController extends Controller {
 
