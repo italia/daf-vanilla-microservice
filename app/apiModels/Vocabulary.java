@@ -8,7 +8,7 @@ import javax.validation.constraints.*;
 /**
  * A vocabulary for standardization
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaPlayFrameworkCodegen", date = "2018-07-25T16:23:23.837+02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaPlayFrameworkCodegen", date = "2018-08-18T11:53:14.465+02:00")
 
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class Vocabulary   {
